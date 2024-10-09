@@ -2,7 +2,7 @@
     "name": "synthwave-vscode",
     "displayName": "SynthWave '84",
     "description": "A Synthwave-inspired colour theme to satisfy your neon dreams",
-    "version": "0.1.15",
+    "version": "0.1.16",
     "author": "Robb Owen",
     "publisher": "RobbOwen",
     "icon": "icon.png",
@@ -55,6 +55,11 @@
                     "type": "boolean",
                     "default": false,
                     "description": "Disable the glow effect, but show Synthwave '84 editor chrome updates"
+                },
+                "synthwave84.workbencHtmlPath": {
+                    "type": "string",
+                    "default": "",
+                    "description": "The path to the file \"workbench.html\""
                 }
             }
         }
